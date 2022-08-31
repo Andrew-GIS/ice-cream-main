@@ -1,0 +1,17 @@
+.gallery {
+  text-align: center;
+  // align-content: center;
+
+  background: linear-gradient(to top, $color-design-white 60%, $bg-section 40%);
+}
+.gallery-img {
+  margin-left: auto;
+  margin-right: auto;
+  width: 364px;
+  @media screen and (min-width: $tablet) {
+    width: 786px;
+  }
+  @media screen and (min-width: $desktop) {
+    width: 1280px;
+  }
+}
