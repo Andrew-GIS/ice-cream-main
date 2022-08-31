@@ -6,7 +6,7 @@
   "homepage": "ttps://andrew-gis.github.io/ice-cream-main",
   "scripts": {
     "dev": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /ice-cream/"
+    "build": "parcel build src/*.html --public-url /ice-cream-main/"
   },
   "repository": {
     "type": "git",
